@@ -1,0 +1,58 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #271c0c;
+  color: white;
+}
+
+p {
+  font-weight: bold;
+}
+main {
+  padding: 0 400px;
+  height: 100vh;
+  color: black;
+  background-image: url(/fpfinal.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding-top: 100px;
+}
+
+.grid-item {
+  text-align: center;
+  padding: 15px 10px;
+  background-color: rgb(233, 228, 216);
+  border-radius: 10px;
+}
+
+img {
+  max-width: 280px;
+}
+
+.container-page {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+.text-page {
+  width: 400px;
+}
